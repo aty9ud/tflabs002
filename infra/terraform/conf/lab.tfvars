@@ -6,3 +6,5 @@ tflab_tags = {
 }
 
 vnet_name = "vnlabs002"
+
+rg_name = "tflabs002"

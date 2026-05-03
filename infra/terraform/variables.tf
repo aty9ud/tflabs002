@@ -15,3 +15,9 @@ variable "vnet_name" {
   description = "virtual network name"
   nullable    = false
 }
+
+variable "rg_name" {
+  type        = string
+  description = "resource group name"
+  nullable    = false
+}
