@@ -1,0 +1,6 @@
+resource "azurerm_virtual_network" "vntflab" {
+  name                = var.vnet_name
+  location            = var.location
+  resource_group_name = data.azurerm_resource_group.tflab.name
+  address_space       = ["10.0.0.0/24"]
+}
