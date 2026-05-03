@@ -59,6 +59,7 @@ jobs:
               id: terraform-init
               run: |
                 set -euo pipefail
+                ls -al
                 terraform init
               env:
                 TF_LOG: "${{ runner.debug == '1' || ''}}"
