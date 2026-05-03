@@ -92,7 +92,7 @@ jobs:
               id: terraform-plan
               run: |
                 set -euo pipefail
-                terraform plan -var-file=./config/terraform.tfvars
+                terraform plan -var-file=./config/lab.tfvars
               env:
                 TF_LOG: "${{ runner.debug == '1' || ''}}"
                 
