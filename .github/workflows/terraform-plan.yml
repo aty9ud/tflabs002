@@ -100,7 +100,8 @@ jobs:
               id: terraform-apply
               run: |
                 set -euo pipefail
-                terraform apply -var-file="config/lab.tfvars"
+                terraform apply -var-file="config/lab.tfvars" -auto-approve
+              
                 
 
             
