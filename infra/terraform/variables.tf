@@ -4,11 +4,11 @@ variable "location" {
   nullable    = false
 }
 
-variable "tflabs_tags" {
-  type        = map(string)
-  description = "tflabs tags"
-  nullable    = true
-}
+#variable "tflabs_tags" {
+#  type        = map(string)
+#  description = "tflabs tags"
+#  nullable    = true
+#}
 
 variable "vnet_name" {
   type        = string
